@@ -9,7 +9,7 @@ var app = express();
 
 // Connect to mongodb
 // and create a connection with our Mongoose database
-mongoose.connect('mongodb://localhost:27017/express_app', function() {
+mongoose.connect('mongodb://localhost:27017/mongo_test_queries', function() {
   console.log('Connection has been made')
 ;}).catch(err => {
   console.error('App starting error:', err.stack);
